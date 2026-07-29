@@ -1,0 +1,103 @@
+{
+  "schema": "video-factory.assets/v1",
+  "publicationStatus": "public-editorial-repository",
+  "assets": [
+    {
+      "id": "gorge-reaction-cutouts",
+      "files": [
+        "public/grug-stories/asset-menagerie/characters/soyjak-phone-cutout.png",
+        "public/grug-stories/asset-menagerie/characters/two-soyjaks-pointing-cutout.png"
+      ],
+      "sourcePages": [
+        "https://knowyourmeme.com/photos/1888731-soyjak-shows-his-phone",
+        "https://knowyourmeme.com/photos/1926250-two-soyjaks-pointing"
+      ],
+      "rights": "Source and ownership not verified; included as transformed editorial parody assets without an ownership claim"
+    },
+    {
+      "id": "omp-identification-mark",
+      "file": "public/grug-stories/omp-brand/favicon.svg",
+      "sourceUrl": "https://omp.sh/favicon.svg",
+      "rights": "Official mark used only to identify OMP; no ownership or endorsement claim"
+    },
+    {
+      "id": "public-omp-terminal-capture",
+      "files": [
+        "public/grug-stories/omp-brand/WindowsTerminal_9GUXF8Nwy3.png",
+        "public/grug-stories/gorge-v3/generic-terminal.png"
+      ],
+      "rights": "Deterministic public-only Video Factory artwork; contains no private session, commit, path, or cost data"
+    },
+    {
+      "id": "gorge-profile-picture",
+      "file": "public/grug-stories/gorge-profile/gorge-profile-picture.png",
+      "rights": "Frame crop from the source-driven Gorge film; contains no personal photograph"
+    },
+    {
+      "id": "theme7-git-repository-screenshot",
+      "file": "public/grug-stories/theme-seven/git-repository-screenshot.png",
+      "truthTier": "local-deterministic-capture",
+      "captureMethod": "Rendering of actual local theme7 Git status and log facts",
+      "rights": "Project capture published by its owner"
+    },
+    {
+      "id": "photo-backgrounds",
+      "license": "Unsplash License",
+      "files": [
+        {"file": "public/grug-stories/asset-menagerie/backgrounds/nursery-photo.jpg", "sourcePage": "https://unsplash.com/photos/a-babys-room-with-a-white-crib-and-a-white-chair-snvSuY0JAbU"},
+        {"file": "public/grug-stories/asset-menagerie/backgrounds/cockpit-photo.jpg", "sourcePage": "https://unsplash.com/photos/a-close-up-of-the-cockpit-of-a-fighter-jet-lVBtWlrNzFc"},
+        {"file": "public/grug-stories/asset-menagerie/backgrounds/underwater-photo.jpg", "sourcePage": "https://unsplash.com/photos/clear-blue-body-of-water-XexawgzYOBc"},
+        {"file": "public/grug-stories/asset-menagerie/backgrounds/server-room-photo.jpg", "sourcePage": "https://unsplash.com/photos/cable-network-M5tzZtFCOfs"}
+      ]
+    },
+    {
+      "id": "crib-transparent",
+      "file": "public/grug-stories/asset-menagerie/props/nursery/crib-transparent.png",
+      "sourcePage": "https://freesvg.org/crib",
+      "license": "CC0 / Public Domain"
+    },
+    {
+      "id": "server-rack",
+      "file": "public/grug-stories/asset-menagerie/props/tech/server-rack.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Racksserver.png",
+      "creator": "Racksserver",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "id": "openmoji-rock",
+      "file": "public/grug-stories/asset-menagerie/props/chaos/talking-rock.png",
+      "sourceRepository": "https://github.com/hfg-gmuend/openmoji",
+      "sourceFile": "color/618x618/1FAA8.png",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "twemoji-props",
+      "path": "public/grug-stories/asset-menagerie/props",
+      "sourceRepository": "https://github.com/twitter/twemoji",
+      "license": "CC-BY 4.0",
+      "note": "Twemoji source SVGs and rasterized derivatives are retained beneath asset-menagerie/_sources and props"
+    },
+    {
+      "id": "voice-lab-photoreal-subjects",
+      "path": "public/grug-stories/voice-lab",
+      "sources": [
+        {"name": "Husafell Stone", "url": "https://commons.wikimedia.org/wiki/File:H%C3%BAsafell_Stone.png", "author": "Pudpon", "license": "CC0 1.0"},
+        {"name": "Cup of tea", "url": "https://commons.wikimedia.org/wiki/File:Cup_of_tea.png", "author": "Ian Pegg", "license": "CC0 1.0"},
+        {"name": "Beer mug", "url": "https://commons.wikimedia.org/wiki/File:Beer_mug_transparent.png", "author": "Len Rizzi", "license": "United States federal-government public domain"},
+        {"name": "Socrates", "url": "https://commons.wikimedia.org/wiki/File:Socrates_(transparent).png", "author": "S. Perquin", "license": "CC0 1.0"}
+      ]
+    },
+    {
+      "id": "retro-sapi-render-output",
+      "path": "public/grug-stories/generated",
+      "source": "tts/",
+      "use": "Checked-in speech WAVs, engine-timed mouth frames, lip-sync manifests, soundtrack, and render props"
+    },
+    {
+      "id": "t4-code-drag-drop-source-clip",
+      "file": "source-clips/t4-code-drag-drop.mp4",
+      "truthTier": "source-faithful deterministic product study",
+      "use": "Preserved input for the older T4 Code scene"
+    }
+  ]
+}

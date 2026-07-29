@@ -1,0 +1,304 @@
+{
+  "schema": "grug.story/v1",
+  "id": "grug-finds-omp-theme-seven",
+  "title": "How Grug Found OMP, Then Found Theme Seven",
+  "prompt": "Grug simple worker discovers OMP and Theme Seven.",
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "voice": {
+    "name": "Mike",
+    "pitch": 108,
+    "speed": 175
+  },
+  "leadInFrames": 20,
+  "gapFrames": 10,
+  "tailFrames": 40,
+  "soundtrackVolume": 0,
+  "beats": [
+    {
+      "id": "grug-simple-worker",
+      "narration": "Grug simple worker. Want simple thing. Money. Women. Have fun. Get rich.",
+      "caption": "Grug simple worker. Want simple thing. Money. Women. Have fun. Get rich.",
+      "captionChunks": [
+        "Grug simple worker.",
+        "Want simple thing.",
+        "Money.",
+        "Women.",
+        "Have fun.",
+        "Get rich."
+      ],
+      "scene": "grug-git-walk",
+      "effect": "none",
+      "minimumFrames": 300,
+      "holdFrames": 30,
+      "puppet": {
+        "asset": "drawn",
+        "x": 180,
+        "y": 200,
+        "scale": 0.8,
+        "facing": "right",
+        "entrance": "walk-right",
+        "idle": "enter-settle",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "grug-finds-omp",
+      "narration": "One day, Grug find OMP. Grug use OMP. Love OMP.",
+      "caption": "One day, Grug find OMP. Grug use OMP. Love OMP.",
+      "captionChunks": [
+        "One day, Grug find OMP.",
+        "Grug use OMP.",
+        "Love OMP."
+      ],
+      "scene": "grug-omp-discovery",
+      "effect": "none",
+      "minimumFrames": 240,
+      "holdFrames": 30,
+      "puppet": {
+        "asset": "drawn",
+        "x": 120,
+        "y": 140,
+        "scale": 1.25,
+        "facing": "right",
+        "entrance": "none",
+        "idle": "omp-awaken",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "grug-finds-theme-seven",
+      "narration": "Then Grug find Theme Seven. What is Theme Seven? Theme Seven is job harness for idiots. Everyone knows OMP is all you need.",
+      "caption": "Then Grug find Theme Seven. What is Theme Seven? Theme Seven is job harness for idiots. Everyone knows OMP is all you need.",
+      "captionChunks": [
+        "Then Grug find Theme Seven.",
+        "What is Theme Seven?",
+        "Theme Seven is job harness",
+        "for idiots.",
+        "Everyone knows OMP is all",
+        "you need."
+      ],
+      "scene": "theme-seven-edm",
+      "effect": "none",
+      "minimumFrames": 360,
+      "holdFrames": 30,
+      "puppet": {
+        "asset": "drawn",
+        "x": 0,
+        "y": 200,
+        "scale": 0.8,
+        "facing": "right",
+        "entrance": "none",
+        "idle": "talk-bob",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "fucking-idiot-here",
+      "narration": "Fucking idiot here.",
+      "caption": "Fucking idiot here.",
+      "captionChunks": [
+        "Fucking idiot here."
+      ],
+      "scene": "grug-profile-taunt",
+      "effect": "none",
+      "minimumFrames": 180,
+      "holdFrames": 30,
+      "puppet": {
+        "asset": "drawn",
+        "x": 0,
+        "y": 200,
+        "scale": 0.8,
+        "facing": "right",
+        "entrance": "none",
+        "idle": "talk-bob",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "folder-mental-model",
+      "narration": "But if you are dumbass who need help with mental model, Theme Seven help put each job into folder.",
+      "caption": "But if you are dumbass who need help with mental model, Theme Seven help put each job into folder.",
+      "captionChunks": [
+        "But if you are dumbass",
+        "who need help with mental",
+        "model, Theme Seven help put",
+        "each job into folder."
+      ],
+      "scene": "theme-seven-edm",
+      "effect": "none",
+      "minimumFrames": 330,
+      "holdFrames": 30,
+      "puppet": {
+        "asset": "drawn",
+        "x": 0,
+        "y": 200,
+        "scale": 0.8,
+        "facing": "right",
+        "entrance": "none",
+        "idle": "talk-bob",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "theme-seven-workflow",
+      "narration": "Get new job. Make new folder in Theme Seven. Use OMP. Create files. Use Git. Make beautiful thing.",
+      "caption": "Get new job. Make new folder in Theme Seven. Use OMP. Create files. Use Git. Make beautiful thing.",
+      "captionChunks": [
+        "Get new job.",
+        "Make new folder in Theme",
+        "Seven.",
+        "Use OMP.",
+        "Create files.",
+        "Use Git.",
+        "Make beautiful thing."
+      ],
+      "scene": "theme-seven-edm",
+      "effect": "none",
+      "minimumFrames": 360,
+      "holdFrames": 30,
+      "puppet": {
+        "asset": "drawn",
+        "x": 0,
+        "y": 200,
+        "scale": 0.8,
+        "facing": "right",
+        "entrance": "none",
+        "idle": "talk-bob",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "drag-browser-showpiece",
+      "narration": "Look. Drag browser in. Put work where brain can see it.",
+      "caption": "Look. Drag browser in. Put work where brain can see it.",
+      "captionChunks": [
+        "Look.",
+        "Drag browser in.",
+        "Put work where brain can",
+        "see it."
+      ],
+      "scene": "t4-drop",
+      "effect": "none",
+      "minimumFrames": 270,
+      "holdFrames": 30,
+      "puppet": {
+        "asset": "drawn",
+        "x": 0,
+        "y": 200,
+        "scale": 0.8,
+        "facing": "right",
+        "entrance": "none",
+        "idle": "still",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "be-like-grug-finale",
+      "narration": "If you are a fucking dumbass, be like Grug. Use OMP. Get Theme Seven until you realize what power users do.",
+      "caption": "If you are a fucking dumbass, be like Grug. Use OMP. Get Theme Seven until you realize what power users do.",
+      "captionChunks": [
+        "If you are a fucking",
+        "dumbass, be like Grug.",
+        "Use OMP.",
+        "Get Theme Seven until you",
+        "realize what power users do."
+      ],
+      "scene": "grug-1800-finale",
+      "effect": "none",
+      "minimumFrames": 360,
+      "holdFrames": 30,
+      "puppet": {
+        "asset": "drawn",
+        "x": 0,
+        "y": 200,
+        "scale": 0.8,
+        "facing": "right",
+        "entrance": "none",
+        "idle": "talk-bob",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    }
+  ]
+}

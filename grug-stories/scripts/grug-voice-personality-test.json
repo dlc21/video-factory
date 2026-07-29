@@ -1,0 +1,214 @@
+{
+  "schema": "grug.story/v1",
+  "id": "grug-voice-personality-test",
+  "title": "Grug Voice Personality Test",
+  "prompt": "Four photoreal transparent PNG subjects test four dry system voices without telephone, hall, stadium, whisper, spatial, or robotic effects.",
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "voice": {
+    "name": "Mike",
+    "pitch": 108,
+    "speed": 175
+  },
+  "leadInFrames": 20,
+  "gapFrames": 10,
+  "tailFrames": 40,
+  "soundtrackVolume": 0,
+  "beats": [
+    {
+      "id": "granite-deadpan",
+      "narration": "Mike here. I am granite. The build is still building. This is not a crisis.",
+      "caption": "Mike here. I am granite.",
+      "captionChunks": [
+        "Mike here. I am granite.",
+        "The build is still building.",
+        "This is not a crisis."
+      ],
+      "scene": "grug-talking-object",
+      "effect": "none",
+      "minimumFrames": 300,
+      "holdFrames": 24,
+      "puppet": {
+        "asset": "talking-png",
+        "talkingPng": {
+          "source": "grug-stories/voice-lab/rock.png",
+          "width": 455,
+          "mouth": {
+            "left": 0.37,
+            "top": 0.53,
+            "width": 0.26,
+            "rotate": 0
+          }
+        },
+        "x": 410,
+        "y": 102,
+        "scale": 1,
+        "facing": "left",
+        "entrance": "pop",
+        "idle": "talk-bob",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "tea-warmth",
+      "narration": "Mary here, darling. The agents are organized. Please stop yelling at the terminal.",
+      "caption": "Mary here, darling.",
+      "captionChunks": [
+        "Mary here, darling.",
+        "The agents are organized.",
+        "Please stop yelling at",
+        "the terminal."
+      ],
+      "voice": {
+        "name": "Mary",
+        "pitch": 125,
+        "speed": 175
+      },
+      "scene": "grug-talking-object",
+      "effect": "none",
+      "minimumFrames": 300,
+      "holdFrames": 24,
+      "puppet": {
+        "asset": "talking-png",
+        "talkingPng": {
+          "source": "grug-stories/voice-lab/tea.png",
+          "width": 500,
+          "mouth": {
+            "left": 0.39,
+            "top": 0.46,
+            "width": 0.22,
+            "rotate": 0
+          }
+        },
+        "x": 390,
+        "y": 125,
+        "scale": 1,
+        "facing": "left",
+        "entrance": "pop",
+        "idle": "talk-bob",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "socrates-philosopher",
+      "narration": "Adult male three. The unexamined deployment is not worth shipping. Yet the logs remain persuasive.",
+      "caption": "Adult male three.",
+      "captionChunks": [
+        "Adult male three.",
+        "The unexamined deployment is not",
+        "worth shipping.",
+        "Yet the logs remain persuasive."
+      ],
+      "voice": {
+        "name": "Adult Male #3, American English (TruVoice)",
+        "pitch": 115,
+        "speed": 190
+      },
+      "scene": "grug-talking-object",
+      "effect": "none",
+      "minimumFrames": 330,
+      "holdFrames": 24,
+      "puppet": {
+        "asset": "talking-png",
+        "talkingPng": {
+          "source": "grug-stories/voice-lab/socrates.png",
+          "width": 320,
+          "mouth": {
+            "left": 0.385,
+            "top": 0.49,
+            "width": 0.23,
+            "rotate": 0
+          }
+        },
+        "x": 480,
+        "y": 70,
+        "scale": 1,
+        "facing": "left",
+        "entrance": "pop",
+        "idle": "talk-bob",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "beer-direct",
+      "narration": "Adult female two. I reviewed the pull request. It needs two fixes and considerably more confidence.",
+      "caption": "Adult female two.",
+      "captionChunks": [
+        "Adult female two.",
+        "I reviewed the pull request.",
+        "It needs two fixes and",
+        "considerably more confidence."
+      ],
+      "voice": {
+        "name": "Adult Female #2, American English (TruVoice)",
+        "pitch": 130,
+        "speed": 185
+      },
+      "scene": "grug-talking-object",
+      "effect": "none",
+      "minimumFrames": 330,
+      "holdFrames": 24,
+      "puppet": {
+        "asset": "talking-png",
+        "talkingPng": {
+          "source": "grug-stories/voice-lab/beer-mug.png",
+          "width": 425,
+          "mouth": {
+            "left": 0.20,
+            "top": 0.48,
+            "width": 0.28,
+            "rotate": 0
+          }
+        },
+        "x": 430,
+        "y": 90,
+        "scale": 1,
+        "facing": "left",
+        "entrance": "pop",
+        "idle": "talk-bob",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    }
+  ]
+}

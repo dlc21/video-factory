@@ -1,0 +1,32 @@
+{
+  "name": "video-factory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A standalone Remotion factory for Gorge stories, theme7 product motion, and retro SAPI lip sync.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts --config=remotion.config.ts --props=public/grug-stories/generated/gorge-finds-omp-theme7/render-props.json",
+    "voice": "npm --prefix tts run preview",
+    "voices": "npm --prefix tts run voices",
+    "prepare:story": "tsx bin/prepare-story.ts grug-stories/scripts/gorge-finds-omp-theme7.json",
+    "render": "tsx bin/prepare-story.ts grug-stories/scripts/gorge-finds-omp-theme7.json --render",
+    "render:prepared": "remotion render src/index.ts GorgeStory60 out/gorge-finds-omp-theme7.mp4 --props=public/grug-stories/generated/gorge-finds-omp-theme7/render-props.json --config=remotion.config.ts --codec=h264 --crf=16",
+    "theme7:render": "remotion render src/index.ts Theme7Showpiece60 out/theme7-showpiece.mp4 --config=remotion.config.ts --codec=h264 --crf=16",
+    "test": "vitest run grug-stories/contract.test.ts grug-stories/brand-policy.test.ts grug-stories/gorge-v3.test.ts grug-stories/gorge-v4.test.ts grug-stories/gorge-final.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.482",
+    "lucide-react": "^0.474.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.482"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.13",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "tsx": "^4.22.4",
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.4"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "retro-voice-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "retro-voice": "./src/cli.mjs"
+  },
+  "scripts": {
+    "build:native": "C:\\MinGW\\bin\\gcc.exe -std=gnu99 -fms-extensions -O2 -Wall -Wextra -Inative native/retro_sapi4.c -o retro-sapi4.exe -lole32 -luuid -lwinmm && C:\\MinGW\\bin\\gcc.exe -std=gnu99 -O2 -Wall -Wextra native/original_mouth.c -o original-mouth.exe -lgdi32 -luser32",
+    "voices": "node src/cli.mjs voices",
+    "render:sample": "node src/cli.mjs render --voice \"Mike in Stadium\" --text-file samples/stadium.txt --out samples/stadium --frame-prefix /samples/stadium.frames/ && node src/prepare-remotion.mjs",
+    "preview": "node src/preview-server.mjs",
+    "render:remotion": "node src/prepare-remotion.mjs && remotion render src/remotion/index.jsx RetroStadium samples/retro-stadium.mp4 --codec h264 --crf 20",
+    "pretest": "npm run build:native",
+    "test": "node --test"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "remotion": ">=4"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.482",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.482"
+  }
+}

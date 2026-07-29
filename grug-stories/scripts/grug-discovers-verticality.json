@@ -1,0 +1,42 @@
+{
+  "schema": "grug.story/v1",
+  "id": "grug-discovers-verticality",
+  "title": "Grug Discovers Verticality",
+  "prompt": "A full-60-fps construction-paper sidewalk clip. Horizontal travel and parallax remain continuous while Grug loops rapidly up and down five times per second, preserving cue-driven SAPI mouth performance.",
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "voice": {
+    "name": "Mike",
+    "pitch": 108,
+    "speed": 155
+  },
+  "leadInFrames": 24,
+  "gapFrames": 18,
+  "tailFrames": 72,
+  "soundtrackVolume": 0.025,
+  "beats": [
+    {
+      "id": "full-rate-correction",
+      "narration": "Correction. Grug is still moving at sixty frames per second. Grug just goes up and down five times per second, like a piece of construction paper with a job.",
+      "caption": "60 FPS REMAINS IN EFFECT · GRUG MOVES VERTICALLY",
+      "scene": "grug-sidewalk-bounce",
+      "effect": "none",
+      "minimumFrames": 600,
+      "holdFrames": 72,
+      "puppet": { "asset": "drawn", "x": 0, "y": 260, "scale": 0.72, "facing": "right", "entrance": "none", "idle": "bounce-walk", "turn": "none", "mouth": true },
+      "camera": { "kind": "locked", "fromScale": 1, "toScale": 1, "focusX": 0.5, "focusY": 0.5, "startProgress": 0.05, "endProgress": 0.95 }
+    },
+    {
+      "id": "legs-decorative",
+      "narration": "Horizontal motion remains smooth. The legs are decorative. The mouth is doing most of the acting.",
+      "caption": "LEGS: DECORATIVE · MOUTH: CARRYING THE PRODUCTION",
+      "scene": "grug-sidewalk-bounce",
+      "effect": "none",
+      "minimumFrames": 510,
+      "holdFrames": 84,
+      "puppet": { "asset": "drawn", "x": 0, "y": 220, "scale": 0.9, "facing": "right", "entrance": "none", "idle": "bounce-walk", "turn": "none", "mouth": true },
+      "camera": { "kind": "locked", "fromScale": 1, "toScale": 1, "focusX": 0.5, "focusY": 0.5, "startProgress": 0.05, "endProgress": 0.95 }
+    }
+  ]
+}

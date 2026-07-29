@@ -1,0 +1,53 @@
+{
+  "schema": "grug.story/v1",
+  "id": "grug-rejects-easing",
+  "title": "Grug Rejects Easing",
+  "prompt": "A completely separate 1997 municipal pedestrian-test film. Grug crosses a laboratory sidewalk using four brutally held hand-keyed poses while his original SAPI mouth speaks with perfect bureaucratic seriousness.",
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "voice": {
+    "name": "Mike",
+    "pitch": 108,
+    "speed": 155
+  },
+  "leadInFrames": 24,
+  "gapFrames": 18,
+  "tailFrames": 72,
+  "soundtrackVolume": 0.025,
+  "beats": [
+    {
+      "id": "municipal-intake",
+      "narration": "Welcome to the City of Grug pedestrian dynamics lab. Today's subject has been instructed to walk normally.",
+      "caption": "TEST 04: SUBJECT INSTRUCTED TO WALK NORMALLY",
+      "scene": "grug-sidewalk-test",
+      "effect": "none",
+      "minimumFrames": 480,
+      "holdFrames": 72,
+      "puppet": { "asset": "drawn", "x": 0, "y": 260, "scale": 0.72, "facing": "right", "entrance": "none", "idle": "keyframe-walk", "turn": "none", "mouth": true },
+      "camera": { "kind": "locked", "fromScale": 1, "toScale": 1, "focusX": 0.5, "focusY": 0.5, "startProgress": 0.05, "endProgress": 0.95 }
+    },
+    {
+      "id": "easing-rejected",
+      "narration": "Grug has rejected easing. Every eight frames, Grug receives a new body position. The computer calls this animation.",
+      "caption": "EASING: REJECTED · NEW BODY POSITION EVERY 08 FRAMES",
+      "scene": "grug-sidewalk-test",
+      "effect": "none",
+      "minimumFrames": 540,
+      "holdFrames": 90,
+      "puppet": { "asset": "drawn", "x": 0, "y": 205, "scale": 0.96, "facing": "right", "entrance": "none", "idle": "keyframe-walk", "turn": "none", "mouth": true },
+      "camera": { "kind": "locked", "fromScale": 1, "toScale": 1, "focusX": 0.5, "focusY": 0.5, "startProgress": 0.05, "endProgress": 0.95 }
+    },
+    {
+      "id": "sidewalk-approved",
+      "narration": "The sidewalk has been successfully crossed. The city has approved Grug for one additional block.",
+      "caption": "RESULT: SIDEWALK CROSSED · ADDITIONAL BLOCK APPROVED",
+      "scene": "grug-sidewalk-test",
+      "effect": "none",
+      "minimumFrames": 450,
+      "holdFrames": 78,
+      "puppet": { "asset": "drawn", "x": 0, "y": 285, "scale": 0.64, "facing": "right", "entrance": "none", "idle": "keyframe-walk", "turn": "none", "mouth": true },
+      "camera": { "kind": "locked", "fromScale": 1, "toScale": 1, "focusX": 0.5, "focusY": 0.5, "startProgress": 0.05, "endProgress": 0.95 }
+    }
+  ]
+}

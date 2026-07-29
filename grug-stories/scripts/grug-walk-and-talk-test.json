@@ -1,0 +1,53 @@
+{
+  "schema": "grug.story/v1",
+  "id": "grug-walk-and-talk-test",
+  "title": "Grug Walk and Talk Test",
+  "prompt": "A calm A-roll grammar test: simple drawn Grug walks down a quiet street, stops to address the camera in close-up, then returns to a wide walking shot.",
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "voice": {
+    "name": "Mike",
+    "pitch": 105,
+    "speed": 150
+  },
+  "leadInFrames": 30,
+  "gapFrames": 24,
+  "tailFrames": 90,
+  "soundtrackVolume": 0.04,
+  "beats": [
+    {
+      "id": "quiet-wide-walk",
+      "narration": "Here is Grug. Grug is walking down the street. Nothing is on fire. This is an important part of the story.",
+      "caption": "Here is Grug. Grug is walking down the street.",
+      "scene": "grug-street",
+      "effect": "none",
+      "minimumFrames": 600,
+      "holdFrames": 90,
+      "puppet": { "asset": "drawn", "x": 0, "y": 270, "scale": 0.72, "facing": "right", "entrance": "none", "idle": "walk", "turn": "none", "mouth": true },
+      "camera": { "kind": "locked", "fromScale": 1, "toScale": 1, "focusX": 0.5, "focusY": 0.5, "startProgress": 0.05, "endProgress": 0.95 }
+    },
+    {
+      "id": "stop-and-talk-close",
+      "narration": "Grug stops to tell you one thing. Grug found O M P. Grug is trying to be normal about it.",
+      "caption": "Grug found OMP. Grug is trying to be normal about it.",
+      "scene": "grug-street",
+      "effect": "none",
+      "minimumFrames": 600,
+      "holdFrames": 120,
+      "puppet": { "asset": "drawn", "x": 515, "y": 220, "scale": 1.32, "facing": "left", "entrance": "none", "idle": "talk-bob", "turn": "none", "mouth": true },
+      "camera": { "kind": "slow-push", "fromScale": 1, "toScale": 1.13, "focusX": 0.5, "focusY": 0.48, "startProgress": 0.16, "endProgress": 0.84 }
+    },
+    {
+      "id": "return-to-wide",
+      "narration": "Grug keeps walking. Theme Seven can wait until Grug reaches the next block.",
+      "caption": "Theme Seven can wait until the next block.",
+      "scene": "grug-street",
+      "effect": "none",
+      "minimumFrames": 540,
+      "holdFrames": 90,
+      "puppet": { "asset": "drawn", "x": 0, "y": 270, "scale": 0.72, "facing": "right", "entrance": "none", "idle": "walk", "turn": "none", "mouth": true },
+      "camera": { "kind": "locked", "fromScale": 1, "toScale": 1, "focusX": 0.5, "focusY": 0.5, "startProgress": 0.05, "endProgress": 0.95 }
+    }
+  ]
+}

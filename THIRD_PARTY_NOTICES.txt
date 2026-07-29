@@ -1,0 +1,13 @@
+THIRD-PARTY NOTICES
+
+Microsoft Speech API sample and SDK material
+--------------------------------------------
+The files under tts/native/vendor/ retain their original Microsoft copyright and warranty notices. They are excluded from the repository's MIT license. No ownership or relicensing claim is made for those files.
+
+Remotion, React, lucide-react, Vitest, tsx, TypeScript, and transitive packages
+-----------------------------------------------------------------------------
+Installed packages retain their own licenses. See package-lock.json and each installed package's license metadata.
+
+Media and marks
+---------------
+Third-party media, transformed meme images, emoji art, photographs, and the OMP identification mark retain their respective rights and terms. Asset-level sources and known licenses are recorded in grug-stories/asset-sources.json.

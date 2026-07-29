@@ -1,0 +1,42 @@
+{
+  "schema": "grug.story/v1",
+  "id": "grug-walks-normal-now",
+  "title": "Grug Walks Normal Now",
+  "prompt": "A normal South Park-like cutout walk using four discrete character poses. Each pose holds for eight frames at 60 fps, creating a 32-frame walk loop with alternating up/down positions and gentle lean-back/lean-forward states. Horizontal travel, background parallax, speech, and mouth cues remain full-rate.",
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "voice": {
+    "name": "Mike",
+    "pitch": 108,
+    "speed": 155
+  },
+  "leadInFrames": 24,
+  "gapFrames": 18,
+  "tailFrames": 72,
+  "soundtrackVolume": 0.025,
+  "beats": [
+    {
+      "id": "four-pose-citizen",
+      "narration": "Grug now walks like a normal cutout citizen. Four poses. Eight frames per pose. Lean back. Step. Lean forward. Step.",
+      "caption": "FOUR POSES · LEAN BACK · STEP · LEAN FORWARD · STEP",
+      "scene": "grug-sidewalk-four-pose",
+      "effect": "none",
+      "minimumFrames": 570,
+      "holdFrames": 72,
+      "puppet": { "asset": "drawn", "x": 0, "y": 260, "scale": 0.72, "facing": "right", "entrance": "none", "idle": "four-pose-walk", "turn": "none", "mouth": true },
+      "camera": { "kind": "locked", "fromScale": 1, "toScale": 1, "focusX": 0.5, "focusY": 0.5, "startProgress": 0.05, "endProgress": 0.95 }
+    },
+    {
+      "id": "sidewalk-stays-continuous",
+      "narration": "His body changes pose. The sidewalk does not teleport. This is all Grug ever wanted.",
+      "caption": "CHARACTER: FOUR POSES · WORLD: SMOOTHLY CONTINUOUS",
+      "scene": "grug-sidewalk-four-pose",
+      "effect": "none",
+      "minimumFrames": 510,
+      "holdFrames": 78,
+      "puppet": { "asset": "drawn", "x": 0, "y": 220, "scale": 0.9, "facing": "right", "entrance": "none", "idle": "four-pose-walk", "turn": "none", "mouth": true },
+      "camera": { "kind": "locked", "fromScale": 1, "toScale": 1, "focusX": 0.5, "focusY": 0.5, "startProgress": 0.05, "endProgress": 0.95 }
+    }
+  ]
+}

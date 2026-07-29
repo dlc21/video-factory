@@ -1,0 +1,249 @@
+{
+  "schema": "grug.story/v1",
+  "id": "grug-goes-everywhere",
+  "title": "Grug Goes Everywhere",
+  "prompt": "A tired-brain character-and-object showcase: one central subject, one raster background, at most one prop, and chronological spoken-caption chunks of no more than five words. Grugs keep their adventure roles; the rejected illustrated sidekicks are replaced by arbitrary transparent PNGs animated with reusable alpha-only MS Paint lips.",
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "voice": {
+    "name": "Mike",
+    "pitch": 108,
+    "speed": 175
+  },
+  "leadInFrames": 20,
+  "gapFrames": 8,
+  "tailFrames": 50,
+  "soundtrackVolume": 0.025,
+  "beats": [
+    {
+      "id": "baby-grug-builds",
+      "narration": "Baby Grug ships from his crib. Nap first. Then compile.",
+      "caption": "Baby Grug ships from his",
+      "captionChunks": [
+        "Baby Grug ships from his",
+        "crib. Nap first. Then compile."
+      ],
+      "scene": "grug-nursery",
+      "effect": "none",
+      "minimumFrames": 230,
+      "holdFrames": 22,
+      "puppet": {
+        "asset": "adventure",
+        "character": "baby-grug",
+        "rig": "crib-bounce",
+        "x": 450,
+        "y": 142,
+        "scale": 1.04,
+        "facing": "right",
+        "entrance": "pop",
+        "idle": "still",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "ace-grug-launches",
+      "narration": "Pilot Grug flies the fighter. The deadline cannot catch him.",
+      "caption": "Pilot Grug flies the fighter.",
+      "captionChunks": [
+        "Pilot Grug flies the fighter.",
+        "The deadline cannot catch him."
+      ],
+      "scene": "grug-fighter",
+      "effect": "none",
+      "minimumFrames": 240,
+      "holdFrames": 22,
+      "puppet": {
+        "asset": "adventure",
+        "character": "pilot-grug",
+        "rig": "fighter-bank",
+        "x": 450,
+        "y": 112,
+        "scale": 1.08,
+        "facing": "right",
+        "entrance": "drop",
+        "idle": "still",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "rock-gets-a-voice",
+      "narration": "This rock has no rig. We put the lips on. Now the rock talks.",
+      "caption": "This rock has no rig.",
+      "captionChunks": [
+        "This rock has no rig.",
+        "We put the lips on.",
+        "Now the rock talks."
+      ],
+      "scene": "grug-talking-object",
+      "effect": "none",
+      "minimumFrames": 240,
+      "holdFrames": 22,
+      "puppet": {
+        "asset": "talking-png",
+        "talkingPng": {
+          "source": "grug-stories/asset-menagerie/props/chaos/talking-rock.png",
+          "width": 340,
+          "mouth": {
+            "left": 0.32,
+            "top": 0.42,
+            "width": 0.38,
+            "rotate": -3
+          }
+        },
+        "x": 470,
+        "y": 176,
+        "scale": 1,
+        "facing": "left",
+        "entrance": "pop",
+        "idle": "talk-bob",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "deep-grug-debugger",
+      "narration": "Scuba Grug debugs the ocean. The bugs cannot hide.",
+      "caption": "Scuba Grug debugs the ocean.",
+      "captionChunks": [
+        "Scuba Grug debugs the ocean.",
+        "The bugs cannot hide."
+      ],
+      "scene": "grug-undersea",
+      "effect": "none",
+      "minimumFrames": 230,
+      "holdFrames": 22,
+      "puppet": {
+        "asset": "adventure",
+        "character": "scuba-grug",
+        "rig": "scuba-kick",
+        "x": 450,
+        "y": 112,
+        "scale": 1.08,
+        "facing": "right",
+        "entrance": "walk-left",
+        "idle": "still",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "rocket-borrows-the-lips",
+      "narration": "Same lips. Different PNG. Now even the rocket can complain about deployment.",
+      "caption": "Same lips. Different PNG.",
+      "captionChunks": [
+        "Same lips. Different PNG.",
+        "Now even the rocket can",
+        "complain about deployment."
+      ],
+      "scene": "grug-talking-object",
+      "effect": "none",
+      "minimumFrames": 240,
+      "holdFrames": 22,
+      "puppet": {
+        "asset": "talking-png",
+        "talkingPng": {
+          "source": "grug-stories/asset-menagerie/props/tech/rocket.png",
+          "width": 360,
+          "mouth": {
+            "left": 0.46,
+            "top": 0.23,
+            "width": 0.28,
+            "rotate": -28
+          }
+        },
+        "x": 455,
+        "y": 160,
+        "scale": 1,
+        "facing": "left",
+        "entrance": "walk-left",
+        "idle": "talk-bob",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    },
+    {
+      "id": "grug-finds-omp-again",
+      "narration": "Potato Grug finds OMP. OMP runs the job. Potato Grug becomes Chad Grug.",
+      "caption": "Potato Grug finds OMP.",
+      "captionChunks": [
+        "Potato Grug finds OMP.",
+        "OMP runs the job.",
+        "Potato Grug becomes Chad Grug."
+      ],
+      "scene": "grug-omp-transform",
+      "effect": "none",
+      "minimumFrames": 330,
+      "holdFrames": 55,
+      "puppet": {
+        "asset": "adventure",
+        "character": "chad-grug",
+        "rig": "omp-transform",
+        "x": 450,
+        "y": 82,
+        "scale": 1.06,
+        "facing": "right",
+        "entrance": "pop",
+        "idle": "still",
+        "turn": "none",
+        "mouth": true
+      },
+      "camera": {
+        "kind": "locked",
+        "fromScale": 1,
+        "toScale": 1,
+        "focusX": 0.5,
+        "focusY": 0.5,
+        "startProgress": 0.05,
+        "endProgress": 0.95
+      }
+    }
+  ]
+}

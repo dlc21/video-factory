@@ -1,0 +1,1753 @@
+{
+  "schema": "retro-voice-engine.lipsync.v2",
+  "timebase": "sapi4-audio-position-milliseconds",
+  "voice": "Mike in Stadium",
+  "text": "Welcome to the soy arena. Please remain seated while the computer achieves unprecedented levels of confidence.",
+  "audioBytesPerSecond": 44100,
+  "durationMs": 7015.193,
+  "mouthCues": [
+    {
+      "timeMs": 0,
+      "callbackArrivalTimeMs": 16,
+      "rawTimestamp": 0,
+      "ipa": 0,
+      "enginePhoneme": 32,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 117,
+        "upturn": 153,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-0-117-153-0-0-0-0-0.bmp"
+    },
+    {
+      "timeMs": 62.494,
+      "callbackArrivalTimeMs": 47,
+      "rawTimestamp": 2756,
+      "ipa": 0,
+      "enginePhoneme": 87,
+      "hints": 0,
+      "mouth": {
+        "height": 179,
+        "width": 0,
+        "upturn": 140,
+        "jawOpen": 48,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 222
+      },
+      "frame": "/samples/stadium.frames/male-179-0-140-48-0-0-0-222.bmp"
+    },
+    {
+      "timeMs": 124.989,
+      "callbackArrivalTimeMs": 109,
+      "rawTimestamp": 5512,
+      "ipa": 0,
+      "enginePhoneme": 101,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 160,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 96,
+        "lowerTeethVisible": 176,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-160-160-96-96-176-0-0.bmp"
+    },
+    {
+      "timeMs": 249.977,
+      "callbackArrivalTimeMs": 234,
+      "rawTimestamp": 11024,
+      "ipa": 0,
+      "enginePhoneme": 76,
+      "hints": 0,
+      "mouth": {
+        "height": 53,
+        "width": 117,
+        "upturn": 153,
+        "jawOpen": 48,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 179,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-53-117-153-48-0-0-179-0.bmp"
+    },
+    {
+      "timeMs": 312.472,
+      "callbackArrivalTimeMs": 297,
+      "rawTimestamp": 13780,
+      "ipa": 0,
+      "enginePhoneme": 75,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 176,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 32,
+        "lowerTeethVisible": 80,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-16-176-160-48-32-80-0-0.bmp"
+    },
+    {
+      "timeMs": 374.966,
+      "callbackArrivalTimeMs": 375,
+      "rawTimestamp": 16536,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 48,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-208-160-96-48-112-0-0.bmp"
+    },
+    {
+      "timeMs": 437.46,
+      "callbackArrivalTimeMs": 422,
+      "rawTimestamp": 19292,
+      "ipa": 0,
+      "enginePhoneme": 77,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 64,
+        "upturn": 128,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 166
+      },
+      "frame": "/samples/stadium.frames/male-0-64-128-0-0-0-0-166.bmp"
+    },
+    {
+      "timeMs": 499.955,
+      "callbackArrivalTimeMs": 484,
+      "rawTimestamp": 22048,
+      "ipa": 0,
+      "enginePhoneme": 84,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 562.449,
+      "callbackArrivalTimeMs": 547,
+      "rawTimestamp": 24804,
+      "ipa": 0,
+      "enginePhoneme": 98,
+      "hints": 0,
+      "mouth": {
+        "height": 243,
+        "width": 0,
+        "upturn": 153,
+        "jawOpen": 32,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 248
+      },
+      "frame": "/samples/stadium.frames/male-243-0-153-32-0-0-0-248.bmp"
+    },
+    {
+      "timeMs": 624.943,
+      "callbackArrivalTimeMs": 609,
+      "rawTimestamp": 27560,
+      "ipa": 0,
+      "enginePhoneme": 120,
+      "hints": 0,
+      "mouth": {
+        "height": 37,
+        "width": 46,
+        "upturn": 140,
+        "jawOpen": 48,
+        "upperTeethVisible": 64,
+        "lowerTeethVisible": 179,
+        "tonguePosition": 204,
+        "lipTension": 122
+      },
+      "frame": "/samples/stadium.frames/male-37-46-140-48-64-179-204-122.bmp"
+    },
+    {
+      "timeMs": 687.438,
+      "callbackArrivalTimeMs": 672,
+      "rawTimestamp": 30316,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 48,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-208-160-96-48-112-0-0.bmp"
+    },
+    {
+      "timeMs": 749.932,
+      "callbackArrivalTimeMs": 734,
+      "rawTimestamp": 33072,
+      "ipa": 0,
+      "enginePhoneme": 83,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 208,
+        "tonguePosition": 149,
+        "lipTension": 96
+      },
+      "frame": "/samples/stadium.frames/male-16-208-160-48-80-208-149-96.bmp"
+    },
+    {
+      "timeMs": 874.921,
+      "callbackArrivalTimeMs": 859,
+      "rawTimestamp": 38584,
+      "ipa": 0,
+      "enginePhoneme": 121,
+      "hints": 0,
+      "mouth": {
+        "height": 128,
+        "width": 0,
+        "upturn": 38,
+        "jawOpen": 96,
+        "upperTeethVisible": 102,
+        "lowerTeethVisible": 255,
+        "tonguePosition": 0,
+        "lipTension": 64
+      },
+      "frame": "/samples/stadium.frames/male-128-0-38-96-102-255-0-64.bmp"
+    },
+    {
+      "timeMs": 999.909,
+      "callbackArrivalTimeMs": 984,
+      "rawTimestamp": 44096,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 48,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-208-160-96-48-112-0-0.bmp"
+    },
+    {
+      "timeMs": 1062.404,
+      "callbackArrivalTimeMs": 1047,
+      "rawTimestamp": 46852,
+      "ipa": 0,
+      "enginePhoneme": 82,
+      "hints": 0,
+      "mouth": {
+        "height": 64,
+        "width": 0,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 32,
+        "lowerTeethVisible": 80,
+        "tonguePosition": 0,
+        "lipTension": 176
+      },
+      "frame": "/samples/stadium.frames/male-64-0-160-48-32-80-0-176.bmp"
+    },
+    {
+      "timeMs": 1124.898,
+      "callbackArrivalTimeMs": 1109,
+      "rawTimestamp": 49608,
+      "ipa": 0,
+      "enginePhoneme": 69,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 160,
+        "upturn": 160,
+        "jawOpen": 32,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 144,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-160-160-32-0-144-0-0.bmp"
+    },
+    {
+      "timeMs": 1249.887,
+      "callbackArrivalTimeMs": 1234,
+      "rawTimestamp": 55120,
+      "ipa": 0,
+      "enginePhoneme": 78,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 1312.381,
+      "callbackArrivalTimeMs": 1297,
+      "rawTimestamp": 57876,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 48,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-208-160-96-48-112-0-0.bmp"
+    },
+    {
+      "timeMs": 1437.37,
+      "callbackArrivalTimeMs": 1422,
+      "rawTimestamp": 63388,
+      "ipa": 0,
+      "enginePhoneme": 32,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 117,
+        "upturn": 153,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-0-117-153-0-0-0-0-0.bmp"
+    },
+    {
+      "timeMs": 1437.37,
+      "callbackArrivalTimeMs": 1422,
+      "rawTimestamp": 63388,
+      "ipa": 0,
+      "enginePhoneme": 32,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 117,
+        "upturn": 153,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-0-117-153-0-0-0-0-0.bmp"
+    },
+    {
+      "timeMs": 1812.336,
+      "callbackArrivalTimeMs": 1797,
+      "rawTimestamp": 79924,
+      "ipa": 0,
+      "enginePhoneme": 32,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 117,
+        "upturn": 153,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-0-117-153-0-0-0-0-0.bmp"
+    },
+    {
+      "timeMs": 1812.336,
+      "callbackArrivalTimeMs": 1797,
+      "rawTimestamp": 79924,
+      "ipa": 0,
+      "enginePhoneme": 80,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 64,
+        "upturn": 128,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 166
+      },
+      "frame": "/samples/stadium.frames/male-0-64-128-0-0-0-0-166.bmp"
+    },
+    {
+      "timeMs": 1937.324,
+      "callbackArrivalTimeMs": 1922,
+      "rawTimestamp": 85436,
+      "ipa": 0,
+      "enginePhoneme": 76,
+      "hints": 0,
+      "mouth": {
+        "height": 53,
+        "width": 117,
+        "upturn": 153,
+        "jawOpen": 48,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 179,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-53-117-153-48-0-0-179-0.bmp"
+    },
+    {
+      "timeMs": 1999.819,
+      "callbackArrivalTimeMs": 1984,
+      "rawTimestamp": 88192,
+      "ipa": 0,
+      "enginePhoneme": 69,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 160,
+        "upturn": 160,
+        "jawOpen": 32,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 144,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-160-160-32-0-144-0-0.bmp"
+    },
+    {
+      "timeMs": 2124.807,
+      "callbackArrivalTimeMs": 2109,
+      "rawTimestamp": 93704,
+      "ipa": 0,
+      "enginePhoneme": 90,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 208,
+        "tonguePosition": 149,
+        "lipTension": 96
+      },
+      "frame": "/samples/stadium.frames/male-16-208-160-48-80-208-149-96.bmp"
+    },
+    {
+      "timeMs": 2249.796,
+      "callbackArrivalTimeMs": 2234,
+      "rawTimestamp": 99216,
+      "ipa": 0,
+      "enginePhoneme": 82,
+      "hints": 0,
+      "mouth": {
+        "height": 64,
+        "width": 0,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 32,
+        "lowerTeethVisible": 80,
+        "tonguePosition": 0,
+        "lipTension": 176
+      },
+      "frame": "/samples/stadium.frames/male-64-0-160-48-32-80-0-176.bmp"
+    },
+    {
+      "timeMs": 2312.29,
+      "callbackArrivalTimeMs": 2297,
+      "rawTimestamp": 101972,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 80,
+        "width": 176,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 96
+      },
+      "frame": "/samples/stadium.frames/male-80-176-160-48-80-112-0-96.bmp"
+    },
+    {
+      "timeMs": 2312.29,
+      "callbackArrivalTimeMs": 2297,
+      "rawTimestamp": 101972,
+      "ipa": 0,
+      "enginePhoneme": 77,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 64,
+        "upturn": 128,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 166
+      },
+      "frame": "/samples/stadium.frames/male-0-64-128-0-0-0-0-166.bmp"
+    },
+    {
+      "timeMs": 2437.279,
+      "callbackArrivalTimeMs": 2422,
+      "rawTimestamp": 107484,
+      "ipa": 0,
+      "enginePhoneme": 65,
+      "hints": 0,
+      "mouth": {
+        "height": 64,
+        "width": 192,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-64-192-160-64-80-112-0-0.bmp"
+    },
+    {
+      "timeMs": 2562.268,
+      "callbackArrivalTimeMs": 2563,
+      "rawTimestamp": 112996,
+      "ipa": 0,
+      "enginePhoneme": 78,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 2624.762,
+      "callbackArrivalTimeMs": 2609,
+      "rawTimestamp": 115752,
+      "ipa": 0,
+      "enginePhoneme": 32,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 117,
+        "upturn": 153,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-0-117-153-0-0-0-0-0.bmp"
+    },
+    {
+      "timeMs": 2624.762,
+      "callbackArrivalTimeMs": 2609,
+      "rawTimestamp": 115752,
+      "ipa": 0,
+      "enginePhoneme": 83,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 208,
+        "tonguePosition": 149,
+        "lipTension": 96
+      },
+      "frame": "/samples/stadium.frames/male-16-208-160-48-80-208-149-96.bmp"
+    },
+    {
+      "timeMs": 2749.751,
+      "callbackArrivalTimeMs": 2734,
+      "rawTimestamp": 121264,
+      "ipa": 0,
+      "enginePhoneme": 69,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 160,
+        "upturn": 160,
+        "jawOpen": 32,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 144,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-160-160-32-0-144-0-0.bmp"
+    },
+    {
+      "timeMs": 2874.739,
+      "callbackArrivalTimeMs": 2859,
+      "rawTimestamp": 126776,
+      "ipa": 0,
+      "enginePhoneme": 84,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 2937.234,
+      "callbackArrivalTimeMs": 2922,
+      "rawTimestamp": 129532,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 80,
+        "width": 176,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 96
+      },
+      "frame": "/samples/stadium.frames/male-80-176-160-48-80-112-0-96.bmp"
+    },
+    {
+      "timeMs": 2999.728,
+      "callbackArrivalTimeMs": 3000,
+      "rawTimestamp": 132288,
+      "ipa": 0,
+      "enginePhoneme": 68,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 3062.222,
+      "callbackArrivalTimeMs": 3047,
+      "rawTimestamp": 135044,
+      "ipa": 0,
+      "enginePhoneme": 32,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 117,
+        "upturn": 153,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-0-117-153-0-0-0-0-0.bmp"
+    },
+    {
+      "timeMs": 3249.705,
+      "callbackArrivalTimeMs": 3234,
+      "rawTimestamp": 143312,
+      "ipa": 0,
+      "enginePhoneme": 87,
+      "hints": 0,
+      "mouth": {
+        "height": 179,
+        "width": 0,
+        "upturn": 140,
+        "jawOpen": 48,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 222
+      },
+      "frame": "/samples/stadium.frames/male-179-0-140-48-0-0-0-222.bmp"
+    },
+    {
+      "timeMs": 3374.694,
+      "callbackArrivalTimeMs": 3359,
+      "rawTimestamp": 148824,
+      "ipa": 0,
+      "enginePhoneme": 73,
+      "hints": 0,
+      "mouth": {
+        "height": 128,
+        "width": 128,
+        "upturn": 160,
+        "jawOpen": 128,
+        "upperTeethVisible": 112,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-128-128-160-128-112-112-0-0.bmp"
+    },
+    {
+      "timeMs": 3437.188,
+      "callbackArrivalTimeMs": 3438,
+      "rawTimestamp": 151580,
+      "ipa": 0,
+      "enginePhoneme": 76,
+      "hints": 0,
+      "mouth": {
+        "height": 53,
+        "width": 117,
+        "upturn": 153,
+        "jawOpen": 48,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 179,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-53-117-153-48-0-0-179-0.bmp"
+    },
+    {
+      "timeMs": 3562.177,
+      "callbackArrivalTimeMs": 3547,
+      "rawTimestamp": 157092,
+      "ipa": 0,
+      "enginePhoneme": 120,
+      "hints": 0,
+      "mouth": {
+        "height": 37,
+        "width": 46,
+        "upturn": 140,
+        "jawOpen": 48,
+        "upperTeethVisible": 64,
+        "lowerTeethVisible": 179,
+        "tonguePosition": 204,
+        "lipTension": 122
+      },
+      "frame": "/samples/stadium.frames/male-37-46-140-48-64-179-204-122.bmp"
+    },
+    {
+      "timeMs": 3624.671,
+      "callbackArrivalTimeMs": 3609,
+      "rawTimestamp": 159848,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 48,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-208-160-96-48-112-0-0.bmp"
+    },
+    {
+      "timeMs": 3687.166,
+      "callbackArrivalTimeMs": 3672,
+      "rawTimestamp": 162604,
+      "ipa": 0,
+      "enginePhoneme": 75,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 176,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 32,
+        "lowerTeethVisible": 80,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-16-176-160-48-32-80-0-0.bmp"
+    },
+    {
+      "timeMs": 3749.66,
+      "callbackArrivalTimeMs": 3734,
+      "rawTimestamp": 165360,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 48,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-208-160-96-48-112-0-0.bmp"
+    },
+    {
+      "timeMs": 3749.66,
+      "callbackArrivalTimeMs": 3734,
+      "rawTimestamp": 165360,
+      "ipa": 0,
+      "enginePhoneme": 77,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 64,
+        "upturn": 128,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 166
+      },
+      "frame": "/samples/stadium.frames/male-0-64-128-0-0-0-0-166.bmp"
+    },
+    {
+      "timeMs": 3812.154,
+      "callbackArrivalTimeMs": 3797,
+      "rawTimestamp": 168116,
+      "ipa": 0,
+      "enginePhoneme": 80,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 64,
+        "upturn": 128,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 166
+      },
+      "frame": "/samples/stadium.frames/male-0-64-128-0-0-0-0-166.bmp"
+    },
+    {
+      "timeMs": 3874.649,
+      "callbackArrivalTimeMs": 3875,
+      "rawTimestamp": 170872,
+      "ipa": 0,
+      "enginePhoneme": 89,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 192,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 64,
+        "lowerTeethVisible": 144,
+        "tonguePosition": 0,
+        "lipTension": 128
+      },
+      "frame": "/samples/stadium.frames/male-32-192-160-48-64-144-0-128.bmp"
+    },
+    {
+      "timeMs": 3937.143,
+      "callbackArrivalTimeMs": 3922,
+      "rawTimestamp": 173628,
+      "ipa": 0,
+      "enginePhoneme": 98,
+      "hints": 0,
+      "mouth": {
+        "height": 243,
+        "width": 0,
+        "upturn": 153,
+        "jawOpen": 32,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 248
+      },
+      "frame": "/samples/stadium.frames/male-243-0-153-32-0-0-0-248.bmp"
+    },
+    {
+      "timeMs": 3999.637,
+      "callbackArrivalTimeMs": 3984,
+      "rawTimestamp": 176384,
+      "ipa": 0,
+      "enginePhoneme": 84,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 4062.132,
+      "callbackArrivalTimeMs": 4047,
+      "rawTimestamp": 179140,
+      "ipa": 0,
+      "enginePhoneme": 51,
+      "hints": 0,
+      "mouth": {
+        "height": 64,
+        "width": 128,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 32,
+        "lowerTeethVisible": 32,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-64-128-160-64-32-32-0-0.bmp"
+    },
+    {
+      "timeMs": 4187.12,
+      "callbackArrivalTimeMs": 4172,
+      "rawTimestamp": 184652,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 48,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-208-160-96-48-112-0-0.bmp"
+    },
+    {
+      "timeMs": 4187.12,
+      "callbackArrivalTimeMs": 4172,
+      "rawTimestamp": 184652,
+      "ipa": 0,
+      "enginePhoneme": 67,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 4312.109,
+      "callbackArrivalTimeMs": 4297,
+      "rawTimestamp": 190164,
+      "ipa": 0,
+      "enginePhoneme": 69,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 160,
+        "upturn": 160,
+        "jawOpen": 32,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 144,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-160-160-32-0-144-0-0.bmp"
+    },
+    {
+      "timeMs": 4499.592,
+      "callbackArrivalTimeMs": 4500,
+      "rawTimestamp": 198432,
+      "ipa": 0,
+      "enginePhoneme": 86,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 160,
+        "upturn": 160,
+        "jawOpen": 0,
+        "upperTeethVisible": 128,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 208
+      },
+      "frame": "/samples/stadium.frames/male-16-160-160-0-128-0-0-208.bmp"
+    },
+    {
+      "timeMs": 4562.086,
+      "callbackArrivalTimeMs": 4547,
+      "rawTimestamp": 201188,
+      "ipa": 0,
+      "enginePhoneme": 90,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 208,
+        "tonguePosition": 149,
+        "lipTension": 96
+      },
+      "frame": "/samples/stadium.frames/male-16-208-160-48-80-208-149-96.bmp"
+    },
+    {
+      "timeMs": 4624.58,
+      "callbackArrivalTimeMs": 4609,
+      "rawTimestamp": 203944,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 48,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-208-160-96-48-112-0-0.bmp"
+    },
+    {
+      "timeMs": 4687.075,
+      "callbackArrivalTimeMs": 4672,
+      "rawTimestamp": 206700,
+      "ipa": 0,
+      "enginePhoneme": 78,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 4749.569,
+      "callbackArrivalTimeMs": 4750,
+      "rawTimestamp": 209456,
+      "ipa": 0,
+      "enginePhoneme": 80,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 64,
+        "upturn": 128,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 166
+      },
+      "frame": "/samples/stadium.frames/male-0-64-128-0-0-0-0-166.bmp"
+    },
+    {
+      "timeMs": 4812.063,
+      "callbackArrivalTimeMs": 4797,
+      "rawTimestamp": 212212,
+      "ipa": 0,
+      "enginePhoneme": 82,
+      "hints": 0,
+      "mouth": {
+        "height": 64,
+        "width": 0,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 32,
+        "lowerTeethVisible": 80,
+        "tonguePosition": 0,
+        "lipTension": 176
+      },
+      "frame": "/samples/stadium.frames/male-64-0-160-48-32-80-0-176.bmp"
+    },
+    {
+      "timeMs": 4874.558,
+      "callbackArrivalTimeMs": 4859,
+      "rawTimestamp": 214968,
+      "ipa": 0,
+      "enginePhoneme": 101,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 160,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 96,
+        "lowerTeethVisible": 176,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-160-160-96-96-176-0-0.bmp"
+    },
+    {
+      "timeMs": 4937.052,
+      "callbackArrivalTimeMs": 4922,
+      "rawTimestamp": 217724,
+      "ipa": 0,
+      "enginePhoneme": 83,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 208,
+        "tonguePosition": 149,
+        "lipTension": 96
+      },
+      "frame": "/samples/stadium.frames/male-16-208-160-48-80-208-149-96.bmp"
+    },
+    {
+      "timeMs": 5062.041,
+      "callbackArrivalTimeMs": 5047,
+      "rawTimestamp": 223236,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 48,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-208-160-96-48-112-0-0.bmp"
+    },
+    {
+      "timeMs": 5062.041,
+      "callbackArrivalTimeMs": 5047,
+      "rawTimestamp": 223236,
+      "ipa": 0,
+      "enginePhoneme": 68,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 5124.535,
+      "callbackArrivalTimeMs": 5109,
+      "rawTimestamp": 225992,
+      "ipa": 0,
+      "enginePhoneme": 101,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 160,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 96,
+        "lowerTeethVisible": 176,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-160-160-96-96-176-0-0.bmp"
+    },
+    {
+      "timeMs": 5187.029,
+      "callbackArrivalTimeMs": 5172,
+      "rawTimestamp": 228748,
+      "ipa": 0,
+      "enginePhoneme": 78,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 5249.524,
+      "callbackArrivalTimeMs": 5234,
+      "rawTimestamp": 231504,
+      "ipa": 0,
+      "enginePhoneme": 84,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 5312.018,
+      "callbackArrivalTimeMs": 5297,
+      "rawTimestamp": 234260,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 80,
+        "width": 176,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 96
+      },
+      "frame": "/samples/stadium.frames/male-80-176-160-48-80-112-0-96.bmp"
+    },
+    {
+      "timeMs": 5374.512,
+      "callbackArrivalTimeMs": 5375,
+      "rawTimestamp": 237016,
+      "ipa": 0,
+      "enginePhoneme": 68,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 5374.512,
+      "callbackArrivalTimeMs": 5375,
+      "rawTimestamp": 237016,
+      "ipa": 0,
+      "enginePhoneme": 76,
+      "hints": 0,
+      "mouth": {
+        "height": 53,
+        "width": 117,
+        "upturn": 153,
+        "jawOpen": 48,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 179,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-53-117-153-48-0-0-179-0.bmp"
+    },
+    {
+      "timeMs": 5499.501,
+      "callbackArrivalTimeMs": 5484,
+      "rawTimestamp": 242528,
+      "ipa": 0,
+      "enginePhoneme": 101,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 160,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 96,
+        "lowerTeethVisible": 176,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-160-160-96-96-176-0-0.bmp"
+    },
+    {
+      "timeMs": 5561.995,
+      "callbackArrivalTimeMs": 5547,
+      "rawTimestamp": 245284,
+      "ipa": 0,
+      "enginePhoneme": 86,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 160,
+        "upturn": 160,
+        "jawOpen": 0,
+        "upperTeethVisible": 128,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 208
+      },
+      "frame": "/samples/stadium.frames/male-16-160-160-0-128-0-0-208.bmp"
+    },
+    {
+      "timeMs": 5561.995,
+      "callbackArrivalTimeMs": 5547,
+      "rawTimestamp": 245284,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 48,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-208-160-96-48-112-0-0.bmp"
+    },
+    {
+      "timeMs": 5624.49,
+      "callbackArrivalTimeMs": 5609,
+      "rawTimestamp": 248040,
+      "ipa": 0,
+      "enginePhoneme": 76,
+      "hints": 0,
+      "mouth": {
+        "height": 53,
+        "width": 117,
+        "upturn": 153,
+        "jawOpen": 48,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 179,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-53-117-153-48-0-0-179-0.bmp"
+    },
+    {
+      "timeMs": 5749.478,
+      "callbackArrivalTimeMs": 5734,
+      "rawTimestamp": 253552,
+      "ipa": 0,
+      "enginePhoneme": 90,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 208,
+        "tonguePosition": 149,
+        "lipTension": 96
+      },
+      "frame": "/samples/stadium.frames/male-16-208-160-48-80-208-149-96.bmp"
+    },
+    {
+      "timeMs": 5811.973,
+      "callbackArrivalTimeMs": 5813,
+      "rawTimestamp": 256308,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 48,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-208-160-96-48-112-0-0.bmp"
+    },
+    {
+      "timeMs": 5874.467,
+      "callbackArrivalTimeMs": 5859,
+      "rawTimestamp": 259064,
+      "ipa": 0,
+      "enginePhoneme": 86,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 160,
+        "upturn": 160,
+        "jawOpen": 0,
+        "upperTeethVisible": 128,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 208
+      },
+      "frame": "/samples/stadium.frames/male-16-160-160-0-128-0-0-208.bmp"
+    },
+    {
+      "timeMs": 5936.961,
+      "callbackArrivalTimeMs": 5922,
+      "rawTimestamp": 261820,
+      "ipa": 0,
+      "enginePhoneme": 75,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 176,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 32,
+        "lowerTeethVisible": 80,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-16-176-160-48-32-80-0-0.bmp"
+    },
+    {
+      "timeMs": 6061.95,
+      "callbackArrivalTimeMs": 6063,
+      "rawTimestamp": 267332,
+      "ipa": 0,
+      "enginePhoneme": 111,
+      "hints": 0,
+      "mouth": {
+        "height": 112,
+        "width": 128,
+        "upturn": 160,
+        "jawOpen": 128,
+        "upperTeethVisible": 112,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-112-128-160-128-112-112-0-0.bmp"
+    },
+    {
+      "timeMs": 6124.444,
+      "callbackArrivalTimeMs": 6109,
+      "rawTimestamp": 270088,
+      "ipa": 0,
+      "enginePhoneme": 78,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 6186.939,
+      "callbackArrivalTimeMs": 6172,
+      "rawTimestamp": 272844,
+      "ipa": 0,
+      "enginePhoneme": 70,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 160,
+        "upturn": 160,
+        "jawOpen": 0,
+        "upperTeethVisible": 128,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 208
+      },
+      "frame": "/samples/stadium.frames/male-16-160-160-0-128-0-0-208.bmp"
+    },
+    {
+      "timeMs": 6249.433,
+      "callbackArrivalTimeMs": 6234,
+      "rawTimestamp": 275600,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 48,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-208-160-96-48-112-0-0.bmp"
+    },
+    {
+      "timeMs": 6311.927,
+      "callbackArrivalTimeMs": 6297,
+      "rawTimestamp": 278356,
+      "ipa": 0,
+      "enginePhoneme": 68,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 6374.422,
+      "callbackArrivalTimeMs": 6359,
+      "rawTimestamp": 281112,
+      "ipa": 0,
+      "enginePhoneme": 118,
+      "hints": 0,
+      "mouth": {
+        "height": 48,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 96,
+        "upperTeethVisible": 48,
+        "lowerTeethVisible": 112,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-48-208-160-96-48-112-0-0.bmp"
+    },
+    {
+      "timeMs": 6436.916,
+      "callbackArrivalTimeMs": 6422,
+      "rawTimestamp": 283868,
+      "ipa": 0,
+      "enginePhoneme": 78,
+      "hints": 0,
+      "mouth": {
+        "height": 32,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 64,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 192,
+        "tonguePosition": 149,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-32-208-160-64-80-192-149-0.bmp"
+    },
+    {
+      "timeMs": 6499.41,
+      "callbackArrivalTimeMs": 6500,
+      "rawTimestamp": 286624,
+      "ipa": 0,
+      "enginePhoneme": 83,
+      "hints": 0,
+      "mouth": {
+        "height": 16,
+        "width": 208,
+        "upturn": 160,
+        "jawOpen": 48,
+        "upperTeethVisible": 80,
+        "lowerTeethVisible": 208,
+        "tonguePosition": 149,
+        "lipTension": 96
+      },
+      "frame": "/samples/stadium.frames/male-16-208-160-48-80-208-149-96.bmp"
+    },
+    {
+      "timeMs": 6686.893,
+      "callbackArrivalTimeMs": 6672,
+      "rawTimestamp": 294892,
+      "ipa": 0,
+      "enginePhoneme": 32,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 117,
+        "upturn": 153,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-0-117-153-0-0-0-0-0.bmp"
+    },
+    {
+      "timeMs": 6686.893,
+      "callbackArrivalTimeMs": 6672,
+      "rawTimestamp": 294892,
+      "ipa": 0,
+      "enginePhoneme": 32,
+      "hints": 0,
+      "mouth": {
+        "height": 0,
+        "width": 117,
+        "upturn": 153,
+        "jawOpen": 0,
+        "upperTeethVisible": 0,
+        "lowerTeethVisible": 0,
+        "tonguePosition": 0,
+        "lipTension": 0
+      },
+      "frame": "/samples/stadium.frames/male-0-117-153-0-0-0-0-0.bmp"
+    }
+  ],
+  "wordCues": [
+    {
+      "timeMs": 62.494,
+      "rawTimestamp": 2756,
+      "byteOffset": 0
+    },
+    {
+      "timeMs": 499.955,
+      "rawTimestamp": 22048,
+      "byteOffset": 8
+    },
+    {
+      "timeMs": 624.943,
+      "rawTimestamp": 27560,
+      "byteOffset": 11
+    },
+    {
+      "timeMs": 749.932,
+      "rawTimestamp": 33072,
+      "byteOffset": 15
+    },
+    {
+      "timeMs": 999.909,
+      "rawTimestamp": 44096,
+      "byteOffset": 19
+    },
+    {
+      "timeMs": 1812.336,
+      "rawTimestamp": 79924,
+      "byteOffset": 26
+    },
+    {
+      "timeMs": 2249.796,
+      "rawTimestamp": 99216,
+      "byteOffset": 33
+    },
+    {
+      "timeMs": 2624.762,
+      "rawTimestamp": 115752,
+      "byteOffset": 40
+    },
+    {
+      "timeMs": 3249.705,
+      "rawTimestamp": 143312,
+      "byteOffset": 47
+    },
+    {
+      "timeMs": 3562.177,
+      "rawTimestamp": 157092,
+      "byteOffset": 53
+    },
+    {
+      "timeMs": 3687.166,
+      "rawTimestamp": 162604,
+      "byteOffset": 57
+    },
+    {
+      "timeMs": 4187.12,
+      "rawTimestamp": 184652,
+      "byteOffset": 66
+    },
+    {
+      "timeMs": 4624.58,
+      "rawTimestamp": 203944,
+      "byteOffset": 75
+    },
+    {
+      "timeMs": 5374.512,
+      "rawTimestamp": 237016,
+      "byteOffset": 89
+    },
+    {
+      "timeMs": 5811.973,
+      "rawTimestamp": 256308,
+      "byteOffset": 96
+    },
+    {
+      "timeMs": 5936.961,
+      "rawTimestamp": 261820,
+      "byteOffset": 99
+    }
+  ],
+  "mouthRenderer": {
+    "id": "microsoft-sapi4-ttsapp-gdi",
+    "source": "native/vendor/mttsappd.cpp:PaintMouth",
+    "width": 130,
+    "height": 110,
+    "gender": "male"
+  },
+  "neutralFrame": "/samples/stadium.frames/male-0-128-128-0-0-0-128-0.bmp"
+}

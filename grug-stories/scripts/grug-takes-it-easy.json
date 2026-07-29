@@ -1,0 +1,42 @@
+{
+  "schema": "grug.story/v1",
+  "id": "grug-takes-it-easy",
+  "title": "Grug Takes It Easy",
+  "prompt": "A relaxed two-position cutout bob at 60 fps. Grug holds each vertical position for exactly 90 frames, or 1.5 seconds, before cutting 26 pixels to the other position. Horizontal travel, background parallax, speech, and mouth cues continue at full rate.",
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "voice": {
+    "name": "Mike",
+    "pitch": 108,
+    "speed": 155
+  },
+  "leadInFrames": 24,
+  "gapFrames": 18,
+  "tailFrames": 72,
+  "soundtrackVolume": 0.025,
+  "beats": [
+    {
+      "id": "released-from-superposition",
+      "narration": "Okay. Grug has been released from superposition. He stays down for one and a half seconds. Then he stays up for one and a half seconds.",
+      "caption": "DOWN: HOLD 1.5 SECONDS · UP: HOLD 1.5 SECONDS",
+      "scene": "grug-sidewalk-held-bob",
+      "effect": "none",
+      "minimumFrames": 630,
+      "holdFrames": 72,
+      "puppet": { "asset": "drawn", "x": 0, "y": 260, "scale": 0.72, "facing": "right", "entrance": "none", "idle": "held-bob-walk", "turn": "none", "mouth": true },
+      "camera": { "kind": "locked", "fromScale": 1, "toScale": 1, "focusX": 0.5, "focusY": 0.5, "startProgress": 0.05, "endProgress": 0.95 }
+    },
+    {
+      "id": "easy-does-it",
+      "narration": "Nothing tweens. Nothing vibrates. Two poses. Easy does it.",
+      "caption": "TWO POSES · NO TWEEN · EASY DOES IT",
+      "scene": "grug-sidewalk-held-bob",
+      "effect": "none",
+      "minimumFrames": 510,
+      "holdFrames": 78,
+      "puppet": { "asset": "drawn", "x": 0, "y": 220, "scale": 0.9, "facing": "right", "entrance": "none", "idle": "held-bob-walk", "turn": "none", "mouth": true },
+      "camera": { "kind": "locked", "fromScale": 1, "toScale": 1, "focusX": 0.5, "focusY": 0.5, "startProgress": 0.05, "endProgress": 0.95 }
+    }
+  ]
+}

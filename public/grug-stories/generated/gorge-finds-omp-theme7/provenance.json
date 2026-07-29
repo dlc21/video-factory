@@ -1,0 +1,51 @@
+{
+  "schema": "grug.story-provenance/v1",
+  "generatedAt": "2026-07-28T23:47:45.964Z",
+  "sourceScript": "grug-stories/scripts/gorge-finds-omp-theme7.json",
+  "sourceSha256": "8a8be9a70066ab1b837e077a90f2c6679cc76ed8b8a45e2dd6ee268abb26c2f1",
+  "retroVoiceUrl": "http://127.0.0.1:4874",
+  "voice": {
+    "name": "Mike",
+    "pitch": 108,
+    "speed": 175
+  },
+  "beatVoices": {
+    "gorge-simple-worker": {
+      "name": "Mike",
+      "pitch": 108,
+      "speed": 175
+    },
+    "gorge-finds-omp": {
+      "name": "Mike",
+      "pitch": 108,
+      "speed": 175
+    },
+    "gorge-finds-theme7": {
+      "name": "Mike",
+      "pitch": 108,
+      "speed": 175
+    },
+    "folder-mental-model": {
+      "name": "Mike",
+      "pitch": 108,
+      "speed": 175
+    },
+    "theme7-workflow": {
+      "name": "Mike",
+      "pitch": 108,
+      "speed": 175
+    },
+    "drag-browser-showpiece": {
+      "name": "Mike",
+      "pitch": 108,
+      "speed": 175
+    },
+    "be-like-gorge-finale": {
+      "name": "Mike",
+      "pitch": 108,
+      "speed": 175
+    }
+  },
+  "truthTier": "narrative-diagram",
+  "publicationStatus": "local-concept-only-not-rights-cleared"
+}

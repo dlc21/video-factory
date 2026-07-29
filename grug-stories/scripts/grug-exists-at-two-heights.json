@@ -1,0 +1,42 @@
+{
+  "schema": "grug.story/v1",
+  "id": "grug-exists-at-two-heights",
+  "title": "Grug Exists at Two Heights",
+  "prompt": "A true South Park-style cutout bob at 60 fps. Grug has exactly two vertical positions separated by 26 pixels and cuts between them on every frame, while horizontal travel, background parallax, speech, and mouth cues continue at full rate.",
+  "fps": 60,
+  "width": 1280,
+  "height": 720,
+  "voice": {
+    "name": "Mike",
+    "pitch": 108,
+    "speed": 155
+  },
+  "leadInFrames": 24,
+  "gapFrames": 18,
+  "tailFrames": 72,
+  "soundtrackVolume": 0.025,
+  "beats": [
+    {
+      "id": "two-heights-only",
+      "narration": "Final correction. Grug has only two vertical positions. Down. Up. Down. Up. Nothing in between.",
+      "caption": "TWO VERTICAL POSITIONS · NOTHING IN BETWEEN",
+      "scene": "grug-sidewalk-cut-bob",
+      "effect": "none",
+      "minimumFrames": 510,
+      "holdFrames": 72,
+      "puppet": { "asset": "drawn", "x": 0, "y": 260, "scale": 0.72, "facing": "right", "entrance": "none", "idle": "cut-bob-walk", "turn": "none", "mouth": true },
+      "camera": { "kind": "locked", "fromScale": 1, "toScale": 1, "focusX": 0.5, "focusY": 0.5, "startProgress": 0.05, "endProgress": 0.95 }
+    },
+    {
+      "id": "everything-else-sixty",
+      "narration": "Everything else still runs at sixty frames per second. Grug is simply changing altitude on every frame.",
+      "caption": "HORIZONTAL: CONTINUOUS · VERTICAL: ABSOLUTELY NOT",
+      "scene": "grug-sidewalk-cut-bob",
+      "effect": "none",
+      "minimumFrames": 510,
+      "holdFrames": 78,
+      "puppet": { "asset": "drawn", "x": 0, "y": 220, "scale": 0.9, "facing": "right", "entrance": "none", "idle": "cut-bob-walk", "turn": "none", "mouth": true },
+      "camera": { "kind": "locked", "fromScale": 1, "toScale": 1, "focusX": 0.5, "focusY": 0.5, "startProgress": 0.05, "endProgress": 0.95 }
+    }
+  ]
+}
