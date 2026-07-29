@@ -8,12 +8,6 @@ A standalone Remotion factory for Gorge comedy films, source-faithful theme7 int
 
 The film shows Gorge discovering OMP, switching between theme7 jobs, moving through terminal/Files/Git views, and dragging a Browser pane into the workspace to reveal his terrible GorgeCities fan page.
 
-## Standalone theme7 showpiece
-
-[![Watch the full 23-second theme7 showpiece preview](media/theme7-showpiece-preview.gif)](media/theme7-showpiece.mp4)
-
-**[Open the full-resolution theme7 MP4](media/theme7-showpiece.mp4)**
-
 ## What is included
 
 - The complete source-driven Gorge story renderer and its additive prior scripts.
@@ -66,8 +60,6 @@ Edit or add a JSON story under `grug-stories/scripts/`. The story contract contr
 npm run studio
 npm run theme7:render
 ```
-
-`source-clips/t4-code-drag-drop.mp4` remains available for the preserved older T4 Code scene. The final Gorge film uses the corrected Browser interaction instead.
 
 ## Assets and rights
 
