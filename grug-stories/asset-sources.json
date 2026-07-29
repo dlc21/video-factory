@@ -98,6 +98,15 @@
       "file": "source-clips/t4-code-drag-drop.mp4",
       "truthTier": "source-faithful deterministic product study",
       "use": "Preserved input for the older T4 Code scene"
+    },
+    {
+      "id": "actual-theme7-product-captures",
+      "path": "public/grug-stories/gorge-v4",
+      "sourceRepository": "https://github.com/dlc21/theme7",
+      "sourceCommit": "c9acee3bc0157db0a7535def3bdf1b96e8fcb579",
+      "truthTier": "browser-captured actual product",
+      "captureBoundary": "Isolated loopback Theme7 development runtime with public film fixtures; actual OMP 17.1.5 and no prior sessions",
+      "use": "Exact Theme7 job, file, browser-pane, and embedded real OMP states used in the Gorge film"
     }
   ]
 }

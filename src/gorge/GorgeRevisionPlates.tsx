@@ -26,110 +26,81 @@ const VIOLET = "#9b4dff"
 
 const OpeningTerminal: React.FC = () => {
   const frame = useCurrentFrame()
-  const scale = interpolate(frame, [0, 240], [1.08, 1], CLAMP)
+  const words = [
+    { text: "MONEY", x: 188, y: 122, color: "#ffd84d", from: -90 },
+    { text: "WAMMEN", x: 650, y: 184, color: MAGENTA, from: 100 },
+    { text: "HAVE FUN", x: 244, y: 430, color: CYAN, from: -120 },
+    { text: "GET RICH", x: 704, y: 486, color: PAPER, from: 130 },
+  ]
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: NIGHT }}>
-      <AbsoluteFill style={{ background: "radial-gradient(circle at 50% 44%, #24303b, #080a10 72%)" }} />
-      <div style={{
-        position: "absolute",
-        left: 230,
-        top: 42,
-        width: 995,
-        height: 626,
-        border: "3px solid rgba(247,239,220,.16)",
-        borderRadius: 10,
-        overflow: "hidden",
-        boxShadow: "0 34px 90px rgba(0,0,0,.62)",
-        transform: `perspective(1200px) rotateY(-8deg) scale(${scale})`,
-        transformOrigin: "62% 50%",
-      }}>
-        <Img src={staticFile("grug-stories/gorge-v3/generic-terminal.png")} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-      </div>
-      <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(8,10,16,.72), transparent 36% 78%, rgba(8,10,16,.38))" }} />
+      <AbsoluteFill style={{ opacity: .34, background: `repeating-conic-gradient(from ${frame * .05}deg at 50% 50%,${VIOLET} 0 8deg,${NIGHT} 8deg 24deg,${MAGENTA} 24deg 31deg,${NIGHT} 31deg 48deg)` }} />
+      {words.map((word, index) => {
+        const entry = interpolate(frame, [index * 18, index * 18 + 34], [word.from, 0], CLAMP)
+        const pulse = 1 + Math.sin((frame + index * 17) / 13) * .025
+        return (
+          <div key={word.text} style={{
+            position: "absolute",
+            left: word.x,
+            top: word.y,
+            color: word.color,
+            fontFamily: "Impact, Arial Black, sans-serif",
+            fontSize: 82,
+            letterSpacing: 2,
+            WebkitTextStroke: `3px ${INK}`,
+            paintOrder: "stroke fill",
+            textShadow: `10px 12px 0 ${INK}`,
+            transform: `translateX(${entry}px) rotate(${index % 2 ? 2 : -2}deg) scale(${pulse})`,
+          }}>{word.text}</div>
+        )
+      })}
     </AbsoluteFill>
   )
 }
 
 const OmpDiscovery: React.FC = () => {
   const frame = useCurrentFrame()
-  const reveal = interpolate(frame, [0, 44], [0.25, 1], CLAMP)
-  const mark = interpolate(frame, [54, 92], [0, 1], CLAMP)
-  const sweep = interpolate(frame, [82, 122], [-420, 1_420], CLAMP)
-  const glow = interpolate(frame, [88, 114, 150], [0, 0.72, 0.42], CLAMP)
-  const energy = interpolate(frame, [104, 120, 156, 220], [0, 1, 0.65, 0], CLAMP)
+  const reveal = interpolate(frame, [0, 28], [0, 1], CLAMP)
+  const scale = interpolate(frame, [0, 260], [1.02, 1.105], CLAMP)
+  const badge = interpolate(frame, [22, 50], [28, 0], CLAMP)
   return (
-    <AbsoluteFill style={{ overflow: "hidden", background: OMP_BRAND.night }}>
-      <AbsoluteFill style={{ opacity: reveal, background: `radial-gradient(ellipse at 72% 46%, rgba(155,77,255,.25), ${OMP_BRAND.night} 62%)` }} />
-      <OmpScreenPlaceholder />
-      <AbsoluteFill style={{ opacity: energy * 0.62, background: `radial-gradient(circle at 22% 52%, rgba(247,239,220,.38), rgba(237,74,191,.24) 16%, rgba(155,77,255,.18) 32%, transparent 58%)`, mixBlendMode: "screen" }} />
+    <AbsoluteFill style={{ overflow: "hidden", background: NIGHT }}>
+      <Img
+        src={staticFile("grug-stories/gorge-v4/theme7-actual-omp.png")}
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          opacity: reveal,
+          transform: `scale(${scale})`,
+          transformOrigin: "36% 45%",
+        }}
+      />
+      <AbsoluteFill style={{ boxShadow: "inset 0 0 90px rgba(0,0,0,.58)" }} />
       <div style={{
         position: "absolute",
-        right: 72,
-        top: 66,
-        width: 760,
-        height: 570,
-        borderRadius: 22,
-        overflow: "hidden",
-        border: "3px solid rgba(247,239,220,.14)",
-        boxShadow: "0 30px 80px rgba(0,0,0,.58)",
-        transform: "perspective(1100px) rotateY(-7deg)",
+        right: 70,
+        top: 72,
+        padding: "12px 18px",
+        border: `2px solid ${CYAN}`,
+        borderRadius: 999,
+        background: "rgba(8,10,16,.9)",
+        boxShadow: "0 14px 34px rgba(0,0,0,.55)",
+        color: PAPER,
+        fontFamily: "Inter, Arial, sans-serif",
+        fontSize: 18,
+        fontWeight: 900,
+        letterSpacing: 1.6,
+        transform: `translateY(${badge}px)`,
       }}>
-        <Img src={staticFile(OMP_BRAND.terminalCapturePath)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-        <AbsoluteFill style={{ background: "linear-gradient(120deg, rgba(247,239,220,.1), transparent 26% 78%, rgba(90,216,230,.12))" }} />
+        <span style={{ color: CYAN }}>REAL OMP</span>
+        <span style={{ color: "#73798a", margin: "0 10px" }}>//</span>
+        RUNNING IN THE ACTUAL THEME7 TERMINAL
       </div>
-      <div style={{
-        position: "absolute",
-        left: sweep,
-        top: -120,
-        width: 180,
-        height: 980,
-        opacity: 0.26,
-        background: "linear-gradient(90deg, transparent, rgba(90,216,230,.72), transparent)",
-        filter: "blur(16px)",
-        transform: "rotate(12deg)",
-      }} />
-      <div style={{
-        position: "absolute",
-        left: 116,
-        top: 210,
-        width: 280,
-        height: 280,
-        borderRadius: "50%",
-        opacity: glow,
-        background: "radial-gradient(circle, rgba(247,239,220,.34), rgba(155,77,255,.32) 36%, transparent 72%)",
-        filter: "blur(12px)",
-      }} />
-      <Img src={staticFile(OMP_BRAND.markPath)} style={{
-        position: "absolute",
-        left: 238,
-        top: 424,
-        width: 116,
-        height: 116,
-        opacity: mark,
-        transform: `scale(${interpolate(mark, [0, 1], [.72, 1], CLAMP)})`,
-        filter: `drop-shadow(-8px 0 22px ${MAGENTA}) drop-shadow(8px 0 22px ${CYAN})`,
-      }} />
     </AbsoluteFill>
   )
 }
 
-const OmpScreenPlaceholder: React.FC = () => (
-  <div style={{
-    position: "absolute",
-    left: 82,
-    top: 112,
-    width: 430,
-    height: 330,
-    border: "4px dashed rgba(247,239,220,.42)",
-    borderRadius: 16,
-    background: "linear-gradient(135deg,#111827,#080a10)",
-    boxShadow: "0 0 38px rgba(90,216,230,.2)",
-    display: "grid",
-    placeItems: "center",
-  }}>
-    <Img src={staticFile(OMP_BRAND.markPath)} style={{ width: 132, height: 132, opacity: 0.72, filter: `drop-shadow(0 0 24px ${CYAN})` }} />
-  </div>
-)
 const ThemeSevenFolders: React.FC = () => {
   const frame = useCurrentFrame()
   const drift = Math.sin(frame * 0.025) * 12
